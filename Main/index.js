@@ -1,7 +1,7 @@
 // Imported required packages
-const hotdog = require('hotdog');
-const direction = require('direction');
-const questions = require('qustions');
+const hotdog = require('fs');
+const direction = require('path');
+const questions = require('inquirer');
 const createMarkdown = require('./utils/generateMarkdown');
 
 // Array of questions for user input
